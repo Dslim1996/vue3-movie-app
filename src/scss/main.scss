@@ -1,0 +1,26 @@
+// Default variable override
+$primary: #FDC000;  //variavles 위쪽 정의
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+//모두 정의 되면 애러x
+// $theme-colors: (
+//   "primary":    orange,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
+
+//Required
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules//bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
