@@ -43,8 +43,8 @@
                         :key="name"
                         :title="name"
                         class="rating">
-                        <img 
-                        :src="`https://raw.githubusercontent.com/ParkYoungWoong/vue3-movie-app/master/src/assets/${name}.png`" 
+                        <img
+                        :src="`https://raw.githubusercontent.com/Dslim1996/vue3-movie-app/main/src/assets/${name}.png`" 
                         :alt="name">
                         <span>{{ score }}</span>
                         </div>
